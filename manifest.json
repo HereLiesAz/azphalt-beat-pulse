@@ -1,0 +1,32 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.beat-pulse",
+  "name": "Beat Pulse",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A zoom-and-flash pump locked to the music's tempo. Set the BPM (get it from the beat map) and every beat lands a punch \u2014 no keyframing.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/beat-pulse.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "beat-sync",
+        "music",
+        "pulse",
+        "zoom",
+        "one-click"
+      ]
+    }
+  ]
+}
